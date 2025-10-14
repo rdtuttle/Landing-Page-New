@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <span class="logo">Russ Tuttle</span>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="hero-content">
+            <h1>Portfolio</h1>
+            <p>Short/Long- Form Video Editing.</p>
+        </div>
+    </header>
+    <main>
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="grid">
+                <!-- Example video thumbnails, replace src with your own -->
+                <div class="item">
+                    <video controls poster="image1.jpg">
+                        <source src="video1.mov" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Project Title 1</p>
+                </div>
+                <div class="item">
+                    <video controls poster="thumb2.jpg">
+                        <source src="video2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Project Title 2</p>
+                </div>
+                <div class="item">
+                    <video controls poster="thumb3.jpg">
+                        <source src="video3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>Project Title 3</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="email" placeholder="Your email" required>
+                <button type="submit">Get In Touch</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+    <p>&copy; 2025 Russ Tuttle. Minimalist Portfolio.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
